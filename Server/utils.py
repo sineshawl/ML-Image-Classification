@@ -91,6 +91,8 @@ def get_image_with_2_eyes(image_path, image_base64_data):
 if __name__ == '__main__':
     load_saved_artifacts()
 
-    print(classify_image(get_base64_for_teddy(), 'E:\\RoadMap\\ML Projects\\ML-Image-Classification\\Server\\test image\\tedy.jpg'))
+    # print(classify_image(get_base64_for_teddy(), 'E:\\RoadMap\\ML Projects\\ML-Image-Classification\\Server\\test image\\tedy.jpg'))
+    print(classify_image(get_base64_for_teddy(), 'E:\\RoadMap\\ML Projects\\ML-Image-Classification\\Server\\test image\\adis.jpg'))
+
     # print(classify_image(get_base64_for_teddy(), None))
     # print(class_number_to_name(2))
